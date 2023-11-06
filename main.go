@@ -33,7 +33,7 @@ func play() error{
 	// Sound player initialization
 	f, err := os.Open("play.mp3")
 	if err != nil {
-		return errors.New("Failed to open mp3 file")
+		return errors.New("Failed to open mp3 file. Please check if 'play.mp3' exists.")
 	}
 	defer f.Close()
 
