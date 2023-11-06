@@ -1,6 +1,5 @@
 package lolapi
 
-
 type Summoner struct {
 	SummonerName string `json:"summmonerName"`
 	Level int `json:"level"`

@@ -1,4 +1,4 @@
-module github.com/yudegaki/lol-ult-soundplayer
+module github.com/yudegaki/yasuo-passive-soundplayer
 
 go 1.20
 

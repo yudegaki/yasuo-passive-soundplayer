@@ -8,7 +8,7 @@ import (
 
 	"github.com/hajimehoshi/go-mp3"
 	"github.com/hajimehoshi/oto"
-	"github.com/yudegaki/lol-ult-soundplayer/lolapi"
+	"github.com/yudegaki/yasuo-passive-soundplayer/lolapi"
 )
 
 func checkYasuoPassiveStatus(summoner *lolapi.Summoner, prevResourceValue *float32) bool {
